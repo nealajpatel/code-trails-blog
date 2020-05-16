@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:9.9.0
+    working_directory: ~/workspace/hexo/blog
+    steps:
+      - checkout
+      - run:
+          name: Install Hexo CLI
+          command: npm install -g hexo-cli
+      - restore_cache:
+          keys:
+            - npm-deps-{{ checksum "package.json" }}
+      - run:
