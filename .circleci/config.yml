@@ -63,6 +63,7 @@ workflows:
   version: 2
   build:
     jobs:
+      - build:
       - deploy:
           requires:
             - build
