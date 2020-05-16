@@ -57,7 +57,7 @@ jobs:
           command: sudo npm install -g broken-link-checker
       - run:
           name: Check broken internal links
-          command: blc https://e.printstacktrace.blog -roe
+          command: blc https://nealajpatel.github.io/code-trails-blog/ -roe
 
 workflows:
   version: 2
