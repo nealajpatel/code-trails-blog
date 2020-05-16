@@ -95,7 +95,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-PureBlue
+plugins:
+  - hexo-generator-cname
+theme: pureblue
 
 # Hexo Prism Plugin
 prism_plugin:
