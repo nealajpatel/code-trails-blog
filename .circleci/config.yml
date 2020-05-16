@@ -43,7 +43,7 @@ jobs:
           at: public
       - add_ssh_keys:
           fingerprints:
-            - "7d:30:e4:d6:01:71:fa:3b:85:04:cc:96:9d:72:38:11"
+            - "09:88:dd:16:06:35:c8:e2:dd:3a:c2:98:36:0d:41:73"
       - deploy:
           name: Deploy website
           command: |
