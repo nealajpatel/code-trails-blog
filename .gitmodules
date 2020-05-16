@@ -1,1 +1,4 @@
 
+[submodule "themes/pureblue"]
+	path = themes/pureblue
+	url = git@github.com:nealajpatel/hexo-theme-PureBlue.git
