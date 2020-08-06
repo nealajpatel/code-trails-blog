@@ -1,14 +1,8 @@
 version: 2.1
 jobs:
   build:
-  branches:
-    ignore: master
-  docker:
-    - image: circleci/node:10
-  steps:
-    - run:
-        command: echo 1
-  build:
+    branches:
+      ignore: master
     steps:
       - checkout
       - run:
