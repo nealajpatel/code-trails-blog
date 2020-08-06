@@ -47,6 +47,8 @@ jobs:
       - deploy:
           name: Deploy website
           command: |
+            git config --global user.name "Circle CI"
+            git config --global user.email "bot@github.com"
             sh deploy.sh
   verify:
     docker:
