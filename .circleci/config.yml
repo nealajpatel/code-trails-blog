@@ -1,8 +1,6 @@
 version: 2.1
 jobs:
   build:
-    branches:
-      ignore: master
     steps:
       - checkout
       - run:
