@@ -6,6 +6,9 @@ jobs:
     docker:
       - image: circleci/node:10
     steps:
+      - run:
+          command: echo 1
+    steps:
       - checkout
       - run:
           name: Update NPM
