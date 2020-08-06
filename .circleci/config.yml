@@ -70,6 +70,7 @@ workflows:
             branches:
               ignore:
                 - master
+                - gh-pages
       - deploy:
           requires:
             - build
