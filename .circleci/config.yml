@@ -68,13 +68,13 @@ workflows:
       - build:
           filters:
             branches:
-              only: master
+              ignore: master
       - deploy:
           requires:
             - build
           filters:
             branches:
-              only: master
+              only: develop
       - verify:
           requires:
             - deploy
