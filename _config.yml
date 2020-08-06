@@ -111,6 +111,6 @@ deploy:
   repo: https://github.com/nealajpatel/code-trails-blog.git
   branch: master
   name: Circle CI
-  email: bot@circleci.com
+  email: bot@github.com
   ignore_hidden: false # default is true
   ignore_pattern: regexp
