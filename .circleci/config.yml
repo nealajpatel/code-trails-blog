@@ -68,7 +68,8 @@ workflows:
       - build:
           filters:
             branches:
-              ignore: master
+              ignore:
+                - master
       - deploy:
           requires:
             - build
