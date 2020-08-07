@@ -15,6 +15,8 @@ cd .deploy_git
 # so git can track files that were removed in the last commit
 find . \(-path ./.git -o -path ./.circleci \) -prune -o -exec rm -rf {} \; 2> /dev/null
 
+git clone https://github.com/Chorer/hexo-theme-PureBlue.git themes/
+
 cd ../
 
 if [ ! -d "./public" ]; then
